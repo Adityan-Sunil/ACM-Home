@@ -1,0 +1,43 @@
+.nav-item {
+    padding: 15px 40px;
+    font-size: 17px;
+    color: black!important;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: rgb(144, 176, 243);
+    color: white!important;
+    transition: all 0.5s;
+}
+
+.nav-link {
+    color: inherit!important;
+}
+.officers{
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    padding:5%;
+    padding-left:15%;
+    column-gap: 5%;
+    row-gap: 10%;
+}
+
+.officer{
+    text-align: center;
+}
+
+.officer-image{
+    height:30%;
+}
+.officer-name{
+    height:20%;
+    font-size: 1.2em;
+    font-weight:bold;
+}
+.officer-links{
+    height:15%;
+}
+
+
