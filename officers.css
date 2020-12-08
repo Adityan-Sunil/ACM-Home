@@ -53,5 +53,17 @@
     margin-left:35%;
     margin-top:10%;
 }
-
-
+@media(max-width: 768px){
+    .officers{
+        display: grid;
+        grid-template-columns: 30vw 30vw;
+        padding:5%;
+        padding-left:0%;
+        column-gap: 5%;
+        row-gap: 2%;
+        margin-top:50px;
+    }
+    .body{
+        margin-bottom:50px;
+    }
+}
